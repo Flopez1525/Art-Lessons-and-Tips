@@ -1,3 +1,45 @@
-body{
-  background-image: url"https://images.wallpapersden.com/image/download/landscape-pixel-art_bGhnaGeUmZqaraWkpJRnZWltrWdlaW0.jpg";
+h4{
+  text-align: right;
+}
+
+h1{
+  font-size: 80px;
+  border-style: groove;
+  border-color: #222222;
+  padding: 10px;
+  background: black;
+}
+h3{
+  font-size: 20px;
+  text-align: center;
+}
+h3, p{
+  border-style: hidden;
+  border-radius: 10px;
+  background: black;
+  width: 400;
+}
+.Video-Text{
+width: 900px;
+padding: 10px;
+}
+#video-container{
+border-style: hidden;
+border-radius: 10px;
+background: black;
+width:400px;
+font-size: 15px;
+}
+#me-container{
+border-style: hidden;
+border-radius: 10px;
+background: black;
+width:500px;
+font-size: 20px
+}
+footer{
+font-size: 20px;
+border-style: hidden;
+border-radius: 10px;
+background: black;
 }
