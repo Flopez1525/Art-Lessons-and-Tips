@@ -19,26 +19,33 @@ h3, p{
   background: black;
   width: 400;
 }
-.Video-Text{
+.info-container{
+text-align: center;
 width: 900px;
 padding: 10px;
 }
-#video-container{
+.video-container{
 border-style: hidden;
 border-radius: 10px;
 background: black;
-width:400px;
 font-size: 15px;
+display: flex;
+justify-content: center;
 }
-#me-container{
+.me-container{
 border-style: hidden;
 border-radius: 10px;
 background: black;
-width:500px;
-font-size: 20px
+font-size: 20px;
+display: flex;
 }
 footer{
 font-size: 20px;
+border-style: hidden;
+border-radius: 10px;
+background: black;
+}
+#Contact{
 border-style: hidden;
 border-radius: 10px;
 background: black;
