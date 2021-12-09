@@ -19,34 +19,15 @@ h3, p{
   background: black;
   width: 400;
 }
-.info-container{
-text-align: center;
-width: 900px;
-padding: 10px;
-}
-.video-container{
-border-style: hidden;
-border-radius: 10px;
-background: black;
-font-size: 15px;
-display: flex;
-justify-content: center;
-}
-.me-container{
-border-style: hidden;
-border-radius: 10px;
-background: black;
-font-size: 20px;
-display: flex;
+.col{
+  border-style: hidden;
+  border-radius: 25px;
+  background: black;
+  text-align: center;
 }
 footer{
-font-size: 20px;
-border-style: hidden;
-border-radius: 10px;
-background: black;
-}
-#Contact{
-border-style: hidden;
-border-radius: 10px;
-background: black;
+  border-style: hidden;
+  border-radius: 10px;
+  background: black;
+  text-align: center
 }
