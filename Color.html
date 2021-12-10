@@ -44,25 +44,30 @@
   </head>
   <body>
     <h1>Colors</h1>
-    <div class="light-container">
-    <div id="list">
-    <h2>All the colors of the light spectrum</h2>
-    <p>Red</p>
-    <p>Blue</p>
-    <p>Yellow</p>
-    <p>Green</p>
-    <p>Purple</p>
-    <p>Orange</p>
-    <p>Black</p>
-    <p>Brown</p>
-    <p>White</p>
+    <div class="container">
+    <div class="row">
+      <div class="col">
+      <h2>Colors: what are they?</h2>
+      <p>Colors make up everything that you see and come in a wide variety too. The main ones are Red, yellow, and Blue. They are usually reffered to as the Primary colors. They make up every other color, the second colors in this line are called Secondary colors. Secondary colors consist of Purple, Green, and Orange. </p>
+      <img src="https://i.pinimg.com/originals/11/66/69/1166697f57678168d72d9c8dd587c34b.jpg" width= 200px>
+      </div>
+      <div class="col">
+      <h2>All the colors of the light spectrum</h2>
+      <p>Red</p>
+      <p>Blue</p>
+      <p>Yellow</p>
+      <p>Green</p>
+      <p>Purple</p>
+      <p>Orange</p>
+      <p>Black</p>
+      <p>Brown</p>
+      <p>White</p>
+      </div>
+      <div class="col">
+        Column
+      </div>
     </div>
   </div>
-    <div class="Colors-container">
-    <h2>Colors: what are they?</h2>
-    <p>Colors make up everything that you see and come in a wide variety too. The main ones are Red, yellow, and Blue. They are usually reffered to as the Primary colors. They make up every other color, the second colors in this line are called Secondary colors. Secondary colors consist of Purple, Green, and Orange. </p>
-    <img src="https://i.pinimg.com/originals/11/66/69/1166697f57678168d72d9c8dd587c34b.jpg" width= 400px>
-    </div>
   </body>
   <style>
   body{
@@ -75,34 +80,16 @@
     background: black;
     text-align: center; 
   }
-  .Colors-container{
-    border-style: hidden;
-    border-radius: 10px;
-    background: black;
-    width: 410px;
-    text-align: center;
-  }
-  #list{
+  .col{
   border-style: hidden;
-  border-radius: 10px;
+  border-radius: 25px;
   background: black;
-  width:70%;
-  border:2px solid;padding:4px;
-  margin:0px 100px 10px 100px;
-  float:right;
+  text-align: center;
   }
-  #image{
+.container{
   border-style: hidden;
-  border-radius: 10px;
+  border-radius: 25px;
   background: black;
-  margin:0px 370px 10px 100px;
-  float:right;
-  }
-  .light-container{
-  margin:0px 350px 10px 50px;
-  float:right;
-  }
-  .image{
-  margin:0px 500px 0px 50px;
-  float:right;
-  }
+  display: flex;
+}
+</style>
